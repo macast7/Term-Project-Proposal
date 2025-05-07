@@ -1,0 +1,68 @@
+---
+title: "Marketing Analytics"
+format: html
+page-layout: full
+---
+
+# <i class="bi bi-graph-up-arrow"></i> Marketing Analytics
+
+This section presents the analytical work behind the project:  
+**"What demographic factors and travel purpose predict customer satisfaction with United Airlines?"**
+
+We use logistic regression and marginal effects analysis to evaluate how factors such as **travel purpose**, **loyalty status**, **age**, and **gender** contribute to customer satisfaction.
+
+---
+
+## 🧠 Analytical Objective
+
+::: {.card style="margin-bottom: 1.5rem;"}
+**Objective**:  
+Examine how **demographic characteristics** and **type of travel** affect the likelihood of customer satisfaction.
+
+**Key Variables**:
+- `Biztravel` (Business vs. Leisure)
+- `Customer` (Loyalty Status)
+- `Age`
+- `Female` (Gender)
+:::
+
+---
+
+## 🔍 Methodology
+
+::: {.card style="margin-bottom: 1.5rem;"}
+**Model**: Logistic Regression  
+- Binary outcome: `y = 1` if customer is satisfied, `0` otherwise  
+- Included interaction terms to account for combined effects (e.g., `Age * Seat`, `Customer * Biztravel`)
+
+**Diagnostics**:
+- **Pseudo R²**: 0.566 — strong model fit  
+- **% Correctly Predicted**: 88.5% — high predictive accuracy  
+- **Marginal Effect (Age)**: -0.00183 — older age slightly reduces satisfaction
+:::
+
+---
+
+## 📊 Key Results & Interpretations
+
+::: {.card style="margin-bottom: 1.5rem;"}
+- **Travel Purpose**: Business travelers are significantly more likely to report satisfaction (**Estimate = +1.163**, p < 0.001)
+- **Loyalty Status**: Alone not significant, but the interaction with business travel is very strong (**Estimate = +3.03**)
+- **Age**: Negatively related to satisfaction but with nuanced interaction effects (e.g., service quality mitigates dissatisfaction)
+- **Gender**: Female travelers report lower satisfaction on average (**Estimate = -0.528**), but positively influenced by better legroom
+:::
+
+---
+
+## 📈 Strategic Implications
+
+::: {.card style="margin-bottom: 1.5rem;"}
+- **Segmentation**: Personalize marketing and operational improvements by age, gender, and travel purpose.
+- **Targeted Service Improvements**: Enhance seat comfort, WiFi, and in-flight services especially for demographics with lower satisfaction.
+- **Model-Driven Campaigns**: Use regression findings to inform digital marketing (see [Digital Marketing Projects](digital-marketing.qmd))
+:::
+
+---
+
+The analytics not only identify key predictors of satisfaction but also serve as a foundation for performance-based marketing strategies and service design.
+

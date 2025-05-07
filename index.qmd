@@ -1,0 +1,27 @@
+---
+title: "About Me"
+format: html
+page-layout: full
+---
+
+# 👋 Welcome!
+
+Hi, I'm **Marvin Castrejon**, a graduate student in **Digital Marketing** at **Cal Poly Pomona**.
+
+This site showcases my term project on **customer satisfaction in the airline industry**, based on a large-scale passenger survey from **United Airlines**.
+
+---
+
+## 🔧 Project Summary
+
+- **✈️ Focus**: Exploring what drives satisfaction using demographic and service data  
+- **📊 Tools Used**: R, Quarto, RevealJS, logistic regression, and marginal effects  
+- **🎯 Outcome**: Actionable insights for digital marketing and operational improvements
+
+---
+
+## 💡 Interests
+
+- Data storytelling & reproducible reporting  
+- Ethical AI policy in education & business  
+- Applied marketing analytics & consumer behavior

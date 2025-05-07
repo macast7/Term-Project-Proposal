@@ -1,0 +1,102 @@
+---
+title: "Customer Satisfaction Insights"
+format: revealjs
+theme: default
+page-layout: full
+---
+
+## ✈️ Customer Satisfaction in the Airline Industry
+
+A data-driven exploration using United Airlines survey data  
+**Marvin Castrejon** | Digital Marketing | Cal Poly Pomona
+
+---
+
+## 🧠 Project Title
+
+**Analyzing Factors Driving Customer Satisfaction at United Airlines**  
+_A comprehensive statistical modeling approach using survey data_
+
+---
+
+## 📂 Data and Source
+
+- **Source**: United Airlines 2015 Passenger Satisfaction Survey  
+- **Size**: 120,000+ observations  
+- **Type**: Structured survey data including:
+  - Passenger demographics  
+  - Inflight service ratings  
+  - Operational delay information  
+- **Response Variable**: `Satisfaction` (1 = Satisfied, 0 = Dissatisfied)
+
+---
+
+## ❗ Managerial Problem
+
+United Airlines wants to improve passenger satisfaction in a competitive market.
+
+> **What factors most strongly influence passenger satisfaction, and how can these insights inform operational and marketing strategies?**
+
+---
+
+## 🎯 Target Audience
+
+- 💼 Chief Marketing Officer (CMO)  
+- ✈️ Director of Customer Experience  
+- 🧠 Data Analytics & CRM Teams  
+- 📊 Product and Operations Managers  
+
+---
+
+## ❓ Research Questions
+
+1. What inflight service factors significantly influence customer satisfaction?  
+2. How do operational issues like delays impact satisfaction?  
+3. How do customer demographics and travel purpose shape satisfaction levels?  
+4. What is the impact of seat comfort, legroom, and booking convenience?
+
+---
+
+## 📊 Analytics Objectives
+
+1. **Inflight Service Analysis**: Measure effects of Wi-Fi, entertainment, food, etc.  
+2. **Operational Factors**: Evaluate delay impacts (departure, arrival)  
+3. **Demographics & Purpose**: Explore roles of age, gender, loyalty, and travel type  
+4. **Comfort & Booking**: Quantify influence of seating, legroom, and online tools
+
+---
+
+## 🔬 Methodology
+
+- **Logistic Regression** with interaction terms  
+- **Marginal Effects** analysis  
+- **Pseudo R²** = 0.566 (strong model fit)  
+- **Classification Accuracy**: 88.5% correctly predicted  
+- **Key Tools**: R, Quarto, RevealJS
+
+---
+
+## 📈 Key Findings
+
+- Business travelers significantly more likely to be satisfied  
+- Loyalty boosts satisfaction when paired with business travel  
+- Older age is negatively associated with satisfaction, mitigated by comfort features  
+- Female passengers report slightly lower satisfaction but respond positively to legroom improvements
+
+---
+
+## 🚀 Business Impact
+
+- 🎯 **Segmented Marketing**: Targeted campaigns by age, gender, and travel type  
+- 🧾 **Service Prioritization**: Focus on Wi-Fi, seating comfort, and boarding ease  
+- 📈 **Data-Driven Strategy**: Use analytics to guide investment and policy  
+- 🔁 **Customer Retention**: Improve loyalty via high-satisfaction segments
+
+---
+
+## 🙏 Thank You!
+
+**Marvin Castrejon**  
+Digital Marketing, Cal Poly Pomona  
+Explore more on the [About Me](index.qmd) page  
+

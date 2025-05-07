@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "digital-marketing.html",
+    "href": "digital-marketing.html",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "This section explores how demographic and behavioral insights from logistic regression modeling can inform United Airlines’ digital marketing strategy.\nWe focus on the following variables: - ✈️ Travel Purpose (Business vs. Leisure) - 🎫 Loyalty Status (Customer) - 👤 Age - 🚻 Gender\n\n\n\n\nInsight: Business travelers are significantly more likely to report satisfaction than leisure travelers.\n- Coefficient for Biztravel: +1.163, p &lt; 0.001\n- Interaction Customer * Biztravel: strong positive effect\nStrategy: - 💼 Launch targeted digital campaigns like “Fly Smart. Work Smarter.”\n- Highlight features that matter most to business travelers: WiFi, early boarding, legroom, and speed of check-in\nExecution: - Segment ad groups by travel purpose using CRM data - Run LinkedIn Ads and Google PPC campaigns on business-related travel terms\n\n\n\n\n\n\nInsight: While the individual coefficient for Customer (loyalty status) isn’t significant, the interaction with Biztravel is — loyalty combined with business travel boosts satisfaction.\nStrategy: - 🎯 Promote loyalty tiers and benefits specifically to business flyers - 📧 Design emails and SMS campaigns with milestone tracking (“You’re 1 trip away from Gold status!”)\nExecution: - Use past travel patterns to build lookalike audiences - Retarget frequent flyers with app-based upgrade promotions\n\n\n\n\n\n\nInsight:\n- Age has a negative main effect: older passengers are slightly less satisfied (Estimate = -0.014)\n- However, this is moderated by service interactions (e.g., Age * Seat, Age * Delay, Age * WiFi)\nMarginal Effect of Age:\n- Average marginal effect = -0.00183, suggesting subtle but meaningful impact per year\nStrategy: - 👵 For older segments: simplify online booking, enhance in-flight comfort - 🧑 For younger flyers: emphasize digital features, in-app boarding, fast check-in\nExecution: - Age-customized landing pages and ads via programmatic targeting - Build personas based on combined age × travel purpose segments\n\n\n\n\n\n\nInsight:\n- Gender (Female = 1) shows a significant negative effect on satisfaction (Estimate = -0.529)\n- But: interaction with Leg_room is positive, meaning improved legroom increases satisfaction among female travelers\nStrategy: - 🪑 Promote spacious seating and comfort-focused features in female-centric channels - 💬 Consider running social campaigns focused on comfort, quiet zones, and premium seating\nExecution: - Pinterest/Instagram creative targeting comfort features - Influencer campaigns showcasing “day-in-the-life” female business travel experiences\n\n\nThese strategies turn model-driven insights into highly actionable marketing approaches that respect demographic nuance while improving brand equity and passenger experience."
+  },
+  {
+    "objectID": "digital-marketing.html#business-vs.-leisure-travelers",
+    "href": "digital-marketing.html#business-vs.-leisure-travelers",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "Insight: Business travelers are significantly more likely to report satisfaction than leisure travelers.\n- Coefficient for Biztravel: +1.163, p &lt; 0.001\n- Interaction Customer * Biztravel: strong positive effect\nStrategy: - 💼 Launch targeted digital campaigns like “Fly Smart. Work Smarter.”\n- Highlight features that matter most to business travelers: WiFi, early boarding, legroom, and speed of check-in\nExecution: - Segment ad groups by travel purpose using CRM data - Run LinkedIn Ads and Google PPC campaigns on business-related travel terms"
+  },
+  {
+    "objectID": "digital-marketing.html#loyalty-based-targeting-customer-status",
+    "href": "digital-marketing.html#loyalty-based-targeting-customer-status",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "Insight: While the individual coefficient for Customer (loyalty status) isn’t significant, the interaction with Biztravel is — loyalty combined with business travel boosts satisfaction.\nStrategy: - 🎯 Promote loyalty tiers and benefits specifically to business flyers - 📧 Design emails and SMS campaigns with milestone tracking (“You’re 1 trip away from Gold status!”)\nExecution: - Use past travel patterns to build lookalike audiences - Retarget frequent flyers with app-based upgrade promotions"
+  },
+  {
+    "objectID": "digital-marketing.html#age-based-personalization",
+    "href": "digital-marketing.html#age-based-personalization",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "Insight:\n- Age has a negative main effect: older passengers are slightly less satisfied (Estimate = -0.014)\n- However, this is moderated by service interactions (e.g., Age * Seat, Age * Delay, Age * WiFi)\nMarginal Effect of Age:\n- Average marginal effect = -0.00183, suggesting subtle but meaningful impact per year\nStrategy: - 👵 For older segments: simplify online booking, enhance in-flight comfort - 🧑 For younger flyers: emphasize digital features, in-app boarding, fast check-in\nExecution: - Age-customized landing pages and ads via programmatic targeting - Build personas based on combined age × travel purpose segments"
+  },
+  {
+    "objectID": "digital-marketing.html#gender-responsive-messaging",
+    "href": "digital-marketing.html#gender-responsive-messaging",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "Insight:\n- Gender (Female = 1) shows a significant negative effect on satisfaction (Estimate = -0.529)\n- But: interaction with Leg_room is positive, meaning improved legroom increases satisfaction among female travelers\nStrategy: - 🪑 Promote spacious seating and comfort-focused features in female-centric channels - 💬 Consider running social campaigns focused on comfort, quiet zones, and premium seating\nExecution: - Pinterest/Instagram creative targeting comfort features - Influencer campaigns showcasing “day-in-the-life” female business travel experiences\n\n\nThese strategies turn model-driven insights into highly actionable marketing approaches that respect demographic nuance while improving brand equity and passenger experience."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi, I’m Marvin Castrejon, a graduate student in Digital Marketing at Cal Poly Pomona.\nThis site showcases my term project on customer satisfaction in the airline industry, based on a large-scale passenger survey from United Airlines.\n\n\n\n\n✈️ Focus: Exploring what drives satisfaction using demographic and service data\n\n📊 Tools Used: R, Quarto, RevealJS, logistic regression, and marginal effects\n\n🎯 Outcome: Actionable insights for digital marketing and operational improvements\n\n\n\n\n\n\nData storytelling & reproducible reporting\n\nEthical AI policy in education & business\n\nApplied marketing analytics & consumer behavior"
+  },
+  {
+    "objectID": "index.html#project-summary",
+    "href": "index.html#project-summary",
+    "title": "About Me",
+    "section": "",
+    "text": "✈️ Focus: Exploring what drives satisfaction using demographic and service data\n\n📊 Tools Used: R, Quarto, RevealJS, logistic regression, and marginal effects\n\n🎯 Outcome: Actionable insights for digital marketing and operational improvements"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "About Me",
+    "section": "",
+    "text": "Data storytelling & reproducible reporting\n\nEthical AI policy in education & business\n\nApplied marketing analytics & consumer behavior"
+  },
+  {
+    "objectID": "presentation.html#customer-satisfaction-in-the-airline-industry",
+    "href": "presentation.html#customer-satisfaction-in-the-airline-industry",
+    "title": "Customer Satisfaction Insights",
+    "section": "✈️ Customer Satisfaction in the Airline Industry",
+    "text": "✈️ Customer Satisfaction in the Airline Industry\nA data-driven exploration using United Airlines survey data\nMarvin Castrejon | Digital Marketing | Cal Poly Pomona"
+  },
+  {
+    "objectID": "presentation.html#project-title",
+    "href": "presentation.html#project-title",
+    "title": "Customer Satisfaction Insights",
+    "section": "🧠 Project Title",
+    "text": "🧠 Project Title\nAnalyzing Factors Driving Customer Satisfaction at United Airlines\nA comprehensive statistical modeling approach using survey data"
+  },
+  {
+    "objectID": "presentation.html#data-and-source",
+    "href": "presentation.html#data-and-source",
+    "title": "Customer Satisfaction Insights",
+    "section": "📂 Data and Source",
+    "text": "📂 Data and Source\n\nSource: United Airlines 2015 Passenger Satisfaction Survey\n\nSize: 120,000+ observations\n\nType: Structured survey data including:\n\nPassenger demographics\n\nInflight service ratings\n\nOperational delay information\n\n\nResponse Variable: Satisfaction (1 = Satisfied, 0 = Dissatisfied)"
+  },
+  {
+    "objectID": "presentation.html#managerial-problem",
+    "href": "presentation.html#managerial-problem",
+    "title": "Customer Satisfaction Insights",
+    "section": "❗ Managerial Problem",
+    "text": "❗ Managerial Problem\nUnited Airlines wants to improve passenger satisfaction in a competitive market.\n\nWhat factors most strongly influence passenger satisfaction, and how can these insights inform operational and marketing strategies?"
+  },
+  {
+    "objectID": "presentation.html#target-audience",
+    "href": "presentation.html#target-audience",
+    "title": "Customer Satisfaction Insights",
+    "section": "🎯 Target Audience",
+    "text": "🎯 Target Audience\n\n💼 Chief Marketing Officer (CMO)\n\n✈️ Director of Customer Experience\n\n🧠 Data Analytics & CRM Teams\n\n📊 Product and Operations Managers"
+  },
+  {
+    "objectID": "presentation.html#research-questions",
+    "href": "presentation.html#research-questions",
+    "title": "Customer Satisfaction Insights",
+    "section": "❓ Research Questions",
+    "text": "❓ Research Questions\n\nWhat inflight service factors significantly influence customer satisfaction?\n\nHow do operational issues like delays impact satisfaction?\n\nHow do customer demographics and travel purpose shape satisfaction levels?\n\nWhat is the impact of seat comfort, legroom, and booking convenience?"
+  },
+  {
+    "objectID": "presentation.html#analytics-objectives",
+    "href": "presentation.html#analytics-objectives",
+    "title": "Customer Satisfaction Insights",
+    "section": "📊 Analytics Objectives",
+    "text": "📊 Analytics Objectives\n\nInflight Service Analysis: Measure effects of Wi-Fi, entertainment, food, etc.\n\nOperational Factors: Evaluate delay impacts (departure, arrival)\n\nDemographics & Purpose: Explore roles of age, gender, loyalty, and travel type\n\nComfort & Booking: Quantify influence of seating, legroom, and online tools"
+  },
+  {
+    "objectID": "presentation.html#methodology",
+    "href": "presentation.html#methodology",
+    "title": "Customer Satisfaction Insights",
+    "section": "🔬 Methodology",
+    "text": "🔬 Methodology\n\nLogistic Regression with interaction terms\n\nMarginal Effects analysis\n\nPseudo R² = 0.566 (strong model fit)\n\nClassification Accuracy: 88.5% correctly predicted\n\nKey Tools: R, Quarto, RevealJS"
+  },
+  {
+    "objectID": "presentation.html#key-findings",
+    "href": "presentation.html#key-findings",
+    "title": "Customer Satisfaction Insights",
+    "section": "📈 Key Findings",
+    "text": "📈 Key Findings\n\nBusiness travelers significantly more likely to be satisfied\n\nLoyalty boosts satisfaction when paired with business travel\n\nOlder age is negatively associated with satisfaction, mitigated by comfort features\n\nFemale passengers report slightly lower satisfaction but respond positively to legroom improvements"
+  },
+  {
+    "objectID": "presentation.html#business-impact",
+    "href": "presentation.html#business-impact",
+    "title": "Customer Satisfaction Insights",
+    "section": "🚀 Business Impact",
+    "text": "🚀 Business Impact\n\n🎯 Segmented Marketing: Targeted campaigns by age, gender, and travel type\n\n🧾 Service Prioritization: Focus on Wi-Fi, seating comfort, and boarding ease\n\n📈 Data-Driven Strategy: Use analytics to guide investment and policy\n\n🔁 Customer Retention: Improve loyalty via high-satisfaction segments"
+  },
+  {
+    "objectID": "presentation.html#thank-you",
+    "href": "presentation.html#thank-you",
+    "title": "Customer Satisfaction Insights",
+    "section": "🙏 Thank You!",
+    "text": "🙏 Thank You!\nMarvin Castrejon\nDigital Marketing, Cal Poly Pomona\nExplore more on the About Me page"
+  },
+  {
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "This section presents the analytical work behind the project:\n“What demographic factors and travel purpose predict customer satisfaction with United Airlines?”\nWe use logistic regression and marginal effects analysis to evaluate how factors such as travel purpose, loyalty status, age, and gender contribute to customer satisfaction.\n\n\n\n\nObjective:\nExamine how demographic characteristics and type of travel affect the likelihood of customer satisfaction.\nKey Variables: - Biztravel (Business vs. Leisure) - Customer (Loyalty Status) - Age - Female (Gender)\n\n\n\n\n\n\nModel: Logistic Regression\n- Binary outcome: y = 1 if customer is satisfied, 0 otherwise\n- Included interaction terms to account for combined effects (e.g., Age * Seat, Customer * Biztravel)\nDiagnostics: - Pseudo R²: 0.566 — strong model fit\n- % Correctly Predicted: 88.5% — high predictive accuracy\n- Marginal Effect (Age): -0.00183 — older age slightly reduces satisfaction\n\n\n\n\n\n\n\nTravel Purpose: Business travelers are significantly more likely to report satisfaction (Estimate = +1.163, p &lt; 0.001)\nLoyalty Status: Alone not significant, but the interaction with business travel is very strong (Estimate = +3.03)\nAge: Negatively related to satisfaction but with nuanced interaction effects (e.g., service quality mitigates dissatisfaction)\nGender: Female travelers report lower satisfaction on average (Estimate = -0.528), but positively influenced by better legroom\n\n\n\n\n\n\n\n\nSegmentation: Personalize marketing and operational improvements by age, gender, and travel purpose.\nTargeted Service Improvements: Enhance seat comfort, WiFi, and in-flight services especially for demographics with lower satisfaction.\nModel-Driven Campaigns: Use regression findings to inform digital marketing (see Digital Marketing Projects)\n\n\n\nThe analytics not only identify key predictors of satisfaction but also serve as a foundation for performance-based marketing strategies and service design."
+  },
+  {
+    "objectID": "marketing-analytics.html#analytical-objective",
+    "href": "marketing-analytics.html#analytical-objective",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Objective:\nExamine how demographic characteristics and type of travel affect the likelihood of customer satisfaction.\nKey Variables: - Biztravel (Business vs. Leisure) - Customer (Loyalty Status) - Age - Female (Gender)"
+  },
+  {
+    "objectID": "marketing-analytics.html#methodology",
+    "href": "marketing-analytics.html#methodology",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Model: Logistic Regression\n- Binary outcome: y = 1 if customer is satisfied, 0 otherwise\n- Included interaction terms to account for combined effects (e.g., Age * Seat, Customer * Biztravel)\nDiagnostics: - Pseudo R²: 0.566 — strong model fit\n- % Correctly Predicted: 88.5% — high predictive accuracy\n- Marginal Effect (Age): -0.00183 — older age slightly reduces satisfaction"
+  },
+  {
+    "objectID": "marketing-analytics.html#key-results-interpretations",
+    "href": "marketing-analytics.html#key-results-interpretations",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Travel Purpose: Business travelers are significantly more likely to report satisfaction (Estimate = +1.163, p &lt; 0.001)\nLoyalty Status: Alone not significant, but the interaction with business travel is very strong (Estimate = +3.03)\nAge: Negatively related to satisfaction but with nuanced interaction effects (e.g., service quality mitigates dissatisfaction)\nGender: Female travelers report lower satisfaction on average (Estimate = -0.528), but positively influenced by better legroom"
+  },
+  {
+    "objectID": "marketing-analytics.html#strategic-implications",
+    "href": "marketing-analytics.html#strategic-implications",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Segmentation: Personalize marketing and operational improvements by age, gender, and travel purpose.\nTargeted Service Improvements: Enhance seat comfort, WiFi, and in-flight services especially for demographics with lower satisfaction.\nModel-Driven Campaigns: Use regression findings to inform digital marketing (see Digital Marketing Projects)\n\n\n\nThe analytics not only identify key predictors of satisfaction but also serve as a foundation for performance-based marketing strategies and service design."
+  }
+]

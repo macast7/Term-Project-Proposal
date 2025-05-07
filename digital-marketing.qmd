@@ -1,0 +1,93 @@
+---
+title: "Digital Marketing Projects"
+format: html
+page-layout: full
+---
+
+# <i class="bi bi-people-fill"></i> Digital Marketing Projects
+
+This section explores how demographic and behavioral insights from logistic regression modeling can inform United Airlines' digital marketing strategy.
+
+We focus on the following variables:
+- ✈️ **Travel Purpose (Business vs. Leisure)**
+- 🎫 **Loyalty Status (Customer)**
+- 👤 **Age**
+- 🚻 **Gender**
+
+---
+
+## ✈️ 1. Business vs. Leisure Travelers
+
+::: {.card style="margin-bottom: 1.5rem;"}
+**Insight**: Business travelers are **significantly more likely** to report satisfaction than leisure travelers.  
+- Coefficient for `Biztravel`: **+1.163**, _p < 0.001_  
+- Interaction `Customer * Biztravel`: strong positive effect
+
+**Strategy**:
+- 💼 Launch targeted digital campaigns like *"Fly Smart. Work Smarter."*  
+- Highlight features that matter most to business travelers: WiFi, early boarding, legroom, and speed of check-in
+
+**Execution**:
+- Segment ad groups by travel purpose using CRM data
+- Run LinkedIn Ads and Google PPC campaigns on business-related travel terms
+:::
+
+---
+
+## 🎫 2. Loyalty-Based Targeting (Customer Status)
+
+::: {.card style="margin-bottom: 1.5rem;"}
+**Insight**: While the individual coefficient for `Customer` (loyalty status) isn’t significant, the **interaction with Biztravel** is — loyalty **combined with business travel** boosts satisfaction.
+
+**Strategy**:
+- 🎯 Promote loyalty tiers and benefits specifically to business flyers
+- 📧 Design emails and SMS campaigns with milestone tracking ("You're 1 trip away from Gold status!")
+
+**Execution**:
+- Use past travel patterns to build lookalike audiences
+- Retarget frequent flyers with app-based upgrade promotions
+:::
+
+---
+
+## 👤 3. Age-Based Personalization
+
+::: {.card style="margin-bottom: 1.5rem;"}
+**Insight**:  
+- Age has a **negative main effect**: older passengers are slightly less satisfied (_Estimate = -0.014_)  
+- However, this is moderated by service interactions (e.g., `Age * Seat`, `Age * Delay`, `Age * WiFi`)
+
+**Marginal Effect of Age**:  
+- Average marginal effect = **-0.00183**, suggesting subtle but meaningful impact per year
+
+**Strategy**:
+- 👵 For older segments: simplify online booking, enhance in-flight comfort
+- 🧑 For younger flyers: emphasize digital features, in-app boarding, fast check-in
+
+**Execution**:
+- Age-customized landing pages and ads via programmatic targeting
+- Build personas based on combined age × travel purpose segments
+:::
+
+---
+
+## 🚻 4. Gender-Responsive Messaging
+
+::: {.card style="margin-bottom: 1.5rem;"}
+**Insight**:  
+- Gender (Female = 1) shows a significant **negative effect** on satisfaction (_Estimate = -0.529_)  
+- But: interaction with `Leg_room` is **positive**, meaning improved legroom increases satisfaction among female travelers
+
+**Strategy**:
+- 🪑 Promote spacious seating and comfort-focused features in female-centric channels
+- 💬 Consider running social campaigns focused on comfort, quiet zones, and premium seating
+
+**Execution**:
+- Pinterest/Instagram creative targeting comfort features
+- Influencer campaigns showcasing “day-in-the-life” female business travel experiences
+:::
+
+---
+
+These strategies turn model-driven insights into highly actionable marketing approaches that respect demographic nuance while improving brand equity and passenger experience.
+
